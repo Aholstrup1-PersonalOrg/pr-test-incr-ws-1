@@ -1,11 +1,8 @@
-// Welcome to your new AL extension.
-// Remember that object names and IDs should be unique across all extensions.
-// AL snippets start with t*, like tpageext - give them a try and happy coding!
-
-pageextension 50011 CustomerListExt extends "Customer List"
+// App2 sample code - unique object to avoid conflicts with App1
+pageextension 50011 VendorListExt extends "Vendor List"
 {
     trigger OnOpenPage();
     begin
-        Message('App published: Hello world');
+        Message('App2 published: Hello world');
     end;
 }
