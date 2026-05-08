@@ -1,7 +1,15 @@
 {
+  "bcptTestFolders": [],
+  "testFolders": [],
+  "incrementalBuilds": {
+    "onPull_Request": true,
+    "mode": "modifiedApps"
+  },
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/aholstrup/incremental-workspace-builds/Actions/.Modules/settings.schema.json",
   "country": "us",
-  "appFolders": [],
-  "testFolders": [],
-  "bcptTestFolders": []
+  "workspaceCompilation": {
+    "parallelism": 2,
+    "enabled": true
+  },
+  "appFolders": []
 }
