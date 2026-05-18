@@ -2,5 +2,5 @@
   "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go/aholstrup/incremental-workspace-builds/Actions/.Modules/settings.schema.json",
   "type": "PTE",
   "templateUrl": "https://github.com/microsoft/AL-Go@aholstrup/incremental-workspace-builds",
-  "templateSha": "095f2f96dc8ab94425b7c394e3f438e0b4c937db"
+  "templateSha": "dd2ceda0230d25f8d32843cc13828df6826bd52b"
 }
